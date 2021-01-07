@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OneEdu UM</title>
+    <link rel="shortcut icon" href="images/um_min.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    <!-- edit -->
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">   
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <div class="site-logo mr-auto w-50"><a href="login.html">UNIVERSITAS NEGERI MALANG</a></div>
+          
+          <div class="ml-auto w-50">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
+                <li ><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+                <li ><a href="#courses-section" class="nav-link cgv"><span>Courses</span></a></li>
+                <li ><a href="#contact-section" class="nav-link"><span>Kotak Saran</span></a></li>
+                <li ><button class="btn btn-pill nav-link bg-danger px-3 text-light mx-auto form-control" onclick="window.location.href='index.html' "><span>Keluar</span></a></li>
+              </ul>
+            </nav>
+            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>
+          </div>
+        </div>
+      </div>  
+    </header>
+
+    <!-- edit -->
+    <div class="intro-section" id="home-section">
+      <div class="slide-1" style="background-image: url('images/bg_um.jpg');" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <div class="row align-items-center">
+                <div class="col-12">
+                    <h1  class="title" data-aos="fade-down" data-aos-delay="100">Selamat Datang Di OneEdu</h1>
+                    <h5 class="mb-2 text-light display-5 greetings"  data-aos="fade-down" data-aos-delay="300">いらっしゃいます,　Adamrahmawan120@gmail.com</h5>
+                    <p class="mb-2"  data-aos="fade-down" data-aos-delay="500">Geser Ke bawah untuk melihat Courses</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- edit -->
+    <div class="site-section" id="courses-section">
+      <div class="container">
+        <div class="row mb-4 pt-5 justify-content-center">
+          <div class="col-lg-7 text-center"  data-aos="fade-up" data-aos-delay="">
+            <h2 class="section-title">My Courses</h2>
+            <button class="btn btn-success text-light mt-2 mb-4 btn-pill" onclick="window.location.href='ready_courses.html'" >Cari Materi Lainnya...</button>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+              <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-justified">
+              <li class="nav-item">
+                  <a class="nav-link active" data-toggle="tab" href="#home">Courses Berjalan</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#menu1">Courses Selesai</a>
+              </li>
+            </ul>
+    
+            <!-- Tab panes -->
+              <div class="tab-content pt-3">
+                  <div class="tab-pane container active" id="home">
+                      <table class="table">
+                          <thead class="thead bg-success text-light">
+                            <tr>
+                              <th class="w-25">Kelas</th>
+                              <th class="w-50">Progress</th>
+                              <th class="w-25 text-center">Aksi</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="pt-4">
+                                <h5>HTML</h5>
+                              </td>
+                              <td>
+                                <div class="progress mt-3">
+                                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-75">75%</div>
+                                </div>
+                              </td>
+                              <td align="center">
+                                  <button type="button" class="btn btn-outline-success btn-table-courses form-control" onclick=" window.location.href='ongoing_web_section.html' ">Lanjutkan Materi</button>
+                              </td>
+                            </tr>
+                            <tr>
+                                <td class="pt-4">
+                                  <h5>CSS</h5>
+                                </td>
+                                <td>
+                                  <div class="progress mt-3 ">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-75" >75%</div>
+                                  </div>
+                                </td>
+                                <td align="center">
+                                    <button type="button" class="btn btn-outline-success btn-table-courses form-control" onclick=" window.location.href='ongoing_css_section.html'"> Lanjutkan Materi</button>
+                                </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                  </div>
+                  <div class="tab-pane container fade" id="menu1">
+                      <table class="table">
+                          <thead class="thead bg-success text-light">
+                            <tr>
+                              <th class="w-25">Kelas</th>
+                              <th class="w-50">Progress</th>
+                              <th class="w-25 text-center">Aksi</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="pt-4"><h5>JavaScript</h5></td>
+                              <td>
+                                  <div class="progress mt-3">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-100" style="height:100%">100%</div>
+                                  </div>
+                              </td>
+                              <td align="center">
+                                  <button type="button" class="btn btn-outline-success btn-table-courses form-control" onclick=" window.location.href='ongoing_js_section.html'">Buka Materi</button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                  </div>
+             </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="bg-light pt-5" id="contact-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+            <h2 class="section-title mb-3 mt-5">Kotak Saran</h2>
+            <p class="mb-5">Saran anda sangat membantu untuk pengembangan web ini</p>
+
+            <form name="form1" action="#" method="post" data-aos="fade">
+              <div class="form-group row">
+                <div class="col-md-6 mb-3 mb-lg-0">
+                  <input type="text" class="form-control" placeholder="Nama Depan" id="contact_first_name">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Nama Belakang" id="contact_last_name">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="text" class="form-control" placeholder="Subjek" id="contact_subjek">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="email" class="form-control" placeholder="Email" id="contact_email">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <textarea class="form-control" cols="30" rows="10" placeholder="Tulis Pesan anda disini" id="contact_message"></textarea>
+                </div>
+                <div class="col-md-12 mt-2">
+                  <input type="button" class="btn btn-success text-light form-control" value="Kirim Pesan" onclick="check_contact()">
+                </div>
+              </div>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+     
+    <footer class="footer-section bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+              <img src="images/um.png" alt="Image" class="img-fluid w-25 mb-4">
+            <h3>UNIVERSITAS NEGERI MALANG</h3>
+            <p>Jl. Semarang 5 Malang, 65145 Telp. (0341) 551312 Malang, Indonesia</p>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Map Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.3496202802376!2d112.61628901488466!3d-7.962773994264776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788281bdd08839%3A0xc915f268bffa831f!2sUniversitas+Negeri+Malang+(UM)!5e0!3m2!1sen!2sid!4v1471252168808" width="100%" height="150" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+          </div>
+
+        </div>
+
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+        <p>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by 
+        <a href="https://colorlib.com" target="_blank" class="text-black">Colorlib</a>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        <br/>
+        <h4>With Adamdam customization</h4>
+        </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+
+  
+    
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  
+
+  
+  <script src="js/main.js"></script>
+  <!-- edit -->
+  <script src="js/adamdam.js"></script>
+    
+  </body>
+</html>
